@@ -11,7 +11,7 @@ Technical writing and decision-making skills. Ability to articulate trade-offs a
 ## Case Study Index
 
 ### 1. Storage Architecture Decision
-**Status:** Planned (Week 2-3)  
+**Status:** ✅ Complete (2025-11-30)
 **File:** `01-storage-architecture-decision.md`
 
 **Problem:** Mac Mini M1 with limited internal storage needs 9TB capacity for 4-service production stack
