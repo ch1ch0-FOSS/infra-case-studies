@@ -25,7 +25,7 @@ Technical writing and decision-making skills. Ability to articulate trade-offs a
 
 **Outcome:** 7.3TB usable storage with validated performance metrics, predictable I/O characteristics, cost-effective scaling path
 
-**Target length:** 1,800-2,000 words  
+**Target length:** 1,800-2,000 words
 **Read time:** ~10 minutes
 
 ---
@@ -45,13 +45,13 @@ Technical writing and decision-making skills. Ability to articulate trade-offs a
 
 **Outcome:** Scales to 1000+ entries without performance degradation, AI-parseable structure, real-time drift detection, zero maintenance overhead
 
-**Target length:** 1,900-2,100 words  
+**Target length:** 1,900-2,100 words
 **Read time:** ~11 minutes
 
 ---
 
 ### 3. Disaster Recovery from First Principles
-**Status:** ✅ Complete (2025-12-01) 
+**Status:** ✅ Complete (2025-12-01)
 **File:** `03-disaster-recovery-from-first-principles.md`
 
 **Problem:** Services need proven recovery capability, not theoretical backups that may fail when actually needed
@@ -65,13 +65,13 @@ Technical writing and decision-making skills. Ability to articulate trade-offs a
 
 **Outcome:** RTO <30min, RPO <24hrs (tested and validated against real backups), documented failure scenarios with workarounds
 
-**Target length:** 1,700-1,900 words  
+**Target length:** 1,700-1,900 words
 **Read time:** ~9 minutes
 
 ---
 
 ### 4. Security Hardening: Localhost-First Approach
-**Status:** Planned (Week 2-3)  
+**Status:** Planned (Week 2-3)
 **File:** `04-security-hardening-localhost-first.md`
 
 **Problem:** Self-hosted services need security baseline without complexity of public-facing infrastructure (reverse proxies, TLS, authentication layers)
@@ -85,13 +85,13 @@ Technical writing and decision-making skills. Ability to articulate trade-offs a
 
 **Outcome:** Zero external exposure without explicit reverse proxy configuration, systemd hardening active for all services, pre-commit validation prevents credential leaks
 
-**Target length:** 1,300-1,500 words  
+**Target length:** 1,300-1,500 words
 **Read time:** ~8 minutes
 
 ---
 
 ### 5. Infrastructure as Code with Ansible
-**Status:** Planned (Week 2-3)  
+**Status:** Planned (Week 2-3)
 **File:** `05-infrastructure-as-code-ansible.md`
 
 **Problem:** Manual server setup led to inconsistent deployments, no reproducibility across environments, configuration drift between test and production
@@ -105,7 +105,7 @@ Technical writing and decision-making skills. Ability to articulate trade-offs a
 
 **Outcome:** 30-minute bare metal to production deployment (measured and repeatable), reproducible across environments, security-hardened by default
 
-**Target length:** 1,400-1,600 words  
+**Target length:** 1,400-1,600 words
 **Read time:** ~8 minutes
 
 ---
@@ -201,4 +201,6 @@ All case studies reference real infrastructure from **[fedora-asahi-srv-m1m](htt
 MIT
 
 ---
-
+- Sanitation test Tue Dec  9 10:07:10 AM EST 2025
+- Sanitation test Tue Dec  9 10:15:48 AM EST 2025
+- Solo test Tue Dec  9 10:42:31 AM EST 2025
